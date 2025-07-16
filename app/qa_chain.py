@@ -11,8 +11,9 @@ from .vectorstore import load_vectorstore
 # Load .env variables
 load_dotenv()
 
-# Use Ollama's mistral model
-llm = ChatOllama(model="mistral")
+# ✅ Use DeepSeek R1 running via Ollama
+# e.g. deepseek-coder:6.7b or latest
+llm = ChatOllama(model="deepseek-coder:6.7b")
 
 def get_prompt_template():
     return PromptTemplate(
@@ -37,17 +38,13 @@ Answer:
     )
 
 def get_qa_chain() -> RetrievalQA:
-    # Use a local embedding model from HuggingFace
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     
-    # Load your local vectorstore
     vectorstore = load_vectorstore()
     retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
 
-    # Get the prompt
     prompt = get_prompt_template()
 
-    # Set up the QA chain with Mistral
     chain = RetrievalQA.from_chain_type(
         llm=llm,
         chain_type="stuff",
