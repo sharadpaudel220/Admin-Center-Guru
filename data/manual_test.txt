@@ -1,0 +1,1 @@
+The Microsoft Admin Center is a centralized platform provided by Microsoft to manage services like Microsoft 365, Azure Active Directory, and security features for organizational IT environments.

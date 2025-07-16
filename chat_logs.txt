@@ -1,0 +1,9 @@
+User: hi there
+Assistant:  Hello! How can I assist you with your question about the Microsoft Admin Center today?
+
+User: can you tell me what is Intune?
+Assistant:  Intune is a cloud-based service offered by Microsoft as part of Enterprise Mobility + Security (EMS). It provides mobile device management and mobile application management capabilities, helping organizations to secure and manage their mobile devices and applications, ensuring compliance with company policies. It can be managed through the Microsoft Admin Center alongside other services like Microsoft 365 and Azure Active Directory.
+
+User: who is the prime minister of Nepal?
+Assistant:  I'm only trained to answer questions related to Microsoft Admin Center.
+

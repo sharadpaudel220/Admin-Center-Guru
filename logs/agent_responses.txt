@@ -1,0 +1,43 @@
+[2025-06-26 18:15:43.112700]
+USER: who is the president of world
+AGENT:  I'm only trained to answer questions related to Microsoft Admin Center.
+============================================================
+[2025-06-26 18:16:23.261983]
+USER: tell me about conditional access in microsoft admin
+AGENT:  In the Microsoft Admin Center, Conditional Access is a feature of Azure Active Directory (Azure AD) that helps you secure access to your organization's data based on conditions that you define. These conditions can include things like device compliance status, sign-in risk level, or user location. By applying policies based on these conditions, you can ensure that only trusted devices and users have access to your sensitive organizational data. Some common scenarios for using Conditional Access include requiring Multi-Factor Authentication (MFA) when a user signs in from an unknown location or only allowing access from compliant managed devices.
+============================================================
+[2025-06-26 18:17:04.047534]
+USER: write me a poem on birds
+AGENT:  I'm only trained to answer questions related to Microsoft Admin Center. However, here's a fun little poem about technology, inspired by the beauty of birds:
+
+In the realm where data streams reside,
+Fly swift and agile, our digital tide.
+Microsoft's wings spread wide, in cyber skies,
+Guarding our data, day and night it flies.
+
+Azure Active Directory, soaring high,
+Securing identities, never will they die.
+And Microsoft 365, like a flock unified,
+Creating, sharing, productivity multiplied.
+
+In the ever-changing landscape of the cloud,
+Our digital birds are our guiding shroud.
+They protect us, help us grow, with every flight they've endowed,
+In the Microsoft Admin Center, where we manage our abode.
+============================================================
+[2025-06-26 18:23:43.877888]
+USER: who is the prime minister of nepal?
+AGENT:  I'm only trained to answer questions related to Microsoft Admin Center.
+============================================================
+[2025-06-26 18:24:11.627492]
+USER: who is CTO of IFC?
+AGENT:  I'm only trained to answer questions related to Microsoft Admin Center.
+============================================================
+[2025-06-26 18:25:31.454499]
+USER: tellllll me abourt intune -policy, what is that?
+AGENT:  In the context of Microsoft Admin Center, Intune Policies are a way to manage and configure settings for devices enrolled in Microsoft Intune, which is a cloud-based mobile device management (MDM) and mobile application management (MAM) service offered by Microsoft. These policies help administrators enforce compliance with organizational security and productivity requirements on company-owned or personally-owned devices used by employees. They can be used to configure settings for a variety of platforms, including Windows 10, Android, iOS, and macOS. Examples of policy types include App Configuration Policies, Conditional Access Policies, and Compliance Policies.
+============================================================
+[2025-06-26 18:40:52.858857]
+USER: hello
+AGENT:  Hello! How can I assist you with your question regarding the Microsoft Admin Center today?
+============================================================
